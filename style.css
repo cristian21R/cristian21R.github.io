@@ -90,6 +90,9 @@
 }
 .idiomas-container {
   margin-top: 8px;
+    display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
 }
 
 .idioma {
@@ -204,18 +207,21 @@
   .badges-container {
     gap: 0.35rem;
   }
- .idioma-nombre {
-   font-size: 0.75rem;
- }
-
- .idioma-nivel {
-   font-size: 0.7rem;
-   padding: 0.1rem 0.5rem;
- }
-
- .idioma {
-   padding: 0.35rem 0;
- }
+    .idioma {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.4rem;
+      padding: 0.6rem 0;
+    }
+  
+    .idioma-nombre {
+      font-size: 0.8rem;
+    }
+  
+    .idioma-nivel {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.6rem;
+    }
  .logros-container {
    gap: 0.8rem;
  }
@@ -235,7 +241,7 @@
  }
 
  .logro-texto {
-   font-size: 0.75rem;
+   font-size: 0.60rem;
  }
 
  .logro-fecha {
