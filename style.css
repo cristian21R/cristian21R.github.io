@@ -163,6 +163,10 @@
   font-size: 13px;
   border-radius: 4px;
 }
+.exp-lista{
+  color: #5d6d7e;
+  font-size: 13px;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
